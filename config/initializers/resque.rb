@@ -1,1 +1,1 @@
-Resque.redis = 'deploy@ec2-34-231-171-153.compute-1.amazonaws.com:6379'
+Resque.redis = 'ec2-54-166-196-142.compute-1.amazonaws.com:6379'
