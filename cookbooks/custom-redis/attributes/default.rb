@@ -39,7 +39,8 @@ default['redis'].tap do |redis|
 
   # Run Redis on a named util instance
   # This is the default
-  redis['utility_name'] = 'redis'
+  #redis['utility_name'] = 'redis'
+  redis['utility_name'] = 'resque'
   redis_instances << redis['utility_name']
   redis['is_redis_instance'] = (
     node['dna']['instance_role'] == 'util' &&

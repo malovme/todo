@@ -1,1 +1,1 @@
-Resque.redis = 'ec2-54-166-196-142.compute-1.amazonaws.com:6379'
+Resque.redis = 'localhost:6379'#'ec2-54-166-196-142.compute-1.amazonaws.com:6379'
