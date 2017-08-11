@@ -58,4 +58,4 @@ group :development, :test do
 
 end
 
-gem 'resque', :require => "resque/server"
+gem 'resque'
