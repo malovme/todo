@@ -7,3 +7,6 @@ require 'rake'
 Listr::Application.load_tasks
 
 task :travis => ['db:create:all', 'db:migrate', :default]
+
+require 'todo'
+require 'resque/tasks'
