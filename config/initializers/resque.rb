@@ -1,1 +1,2 @@
-Resque.redis = 'localhost:6379'#'ec2-54-166-196-142.compute-1.amazonaws.com:6379'
+redis_config = YAML.load_file("#{Rails.root}/config/redis.yml")
+Resque.redis = Redis.new(redis_config[Rails.env])
