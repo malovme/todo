@@ -1,2 +1,2 @@
 name 'ey-custom'
-depends 'resque'
+depends 'custom-resque'
